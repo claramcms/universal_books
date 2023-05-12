@@ -4,6 +4,17 @@
     box-sizing: border-box;
 }
 
+main{
+  border-radius: 90px;
+  width: 100%;
+  position: absolute;
+  height: 250vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+
 header{
     display: flex;
     align-items: center;
@@ -110,12 +121,6 @@ ul{
 
 #perfil{
   margin: 20px;
-}
-
-
-main{
-  display: flex;
-  flex-direction: column;
 }
 
 #livros{
@@ -231,7 +236,7 @@ h4.collen{
   flex-direction: row;
   width: 100%;
   justify-content: center;
-  height: 70vh;
+  height: 90vh;
 }
 
 #misterio{
@@ -257,9 +262,9 @@ h4.collen{
 
 footer{
   width: 100%;
-  background-color: #94ac2a;
+  background-color: #ffffff;
   height: 30vh;
-  border-right: 20px;
+  position: relative;
 }
 
 
